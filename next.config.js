@@ -11,7 +11,7 @@ const nextConfig = {
     domains: [
       'images.unsplash.com',
       'tailwindui.com',
-      'bafybeicgamofiuvkc6wjxl4wwzzh6pdovhcvvyc2gw5verruiolnykzz3i.ipfs.w3s.link',
+      'di-uploads-pod9.dealerinspire.com',
     ],
   },
 };
