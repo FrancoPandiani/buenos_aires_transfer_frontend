@@ -3,16 +3,14 @@ import Layout from '@/hocs/Layout';
 
 const SeoList = {
   title: 'Buenos Aires Transfer',
-  description:
-    'transportes vip',
+  description:'transportes vip',
   href: '/',
   url: 'https://buenosairestransfer.com',
   keywords: 'transporte, vip, remises, viajes',
   robots: 'all',
   author: 'Franco',
   publisher: 'Pandiani',
-  image:
-    '',
+  image:'',
   twitterHandle: '@Buenosairestrasnfer',
 };
 
@@ -41,7 +39,7 @@ export default function About() {
         <meta property="og:image:alt" content={SeoList.image} />
         <meta property="og:type" content="website" />
 
-        <meta property="fb:app_id" content="555171873348164" />
+        <meta property="fb:app_id" content="" />
 
         {/* Video meta tags */}
         <meta property="og:video" content={SeoList.video} />
@@ -62,7 +60,7 @@ export default function About() {
         <meta name="twitter:player:stream" content={SeoList.video} />
       </Head>
       <div className="dark:bg-dark-bg">
-        <p className="dark:text-dark-txt">La empresa se consolida en el mercado casi con una exclusiva atención a empresas. Incorporamos las primeras unidades con telefonía móvil, limusinas y vans ejecutivas.
+        <p className="mt-6 text-lg leading-8 dark:text-dark-txt-secondary text-gray-600">La empresa se consolida en el mercado casi con una exclusiva atención a empresas. Incorporamos las primeras unidades con telefonía móvil, limusinas y vans ejecutivas.
         Adicionamos a los servicios existentes los fletes y nos especializamos en "viajes vip", brindando un servicio integral. Para ello mudamos la parte operativa a Saavedra CABA, al predio de un reconocido Hipermercado, que nos facilita con su ubicación estratégica llegar en menos tiempo
         a cualquier lugar de zona norte, oeste y CABA.</p>
       </div>

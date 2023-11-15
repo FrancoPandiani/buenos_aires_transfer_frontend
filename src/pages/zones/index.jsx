@@ -19,7 +19,7 @@ const SeoList = {
   twitterHandle: '@Buenosairestrasnfer',
 };
 
-export default function Careers() {
+export default function Zones() {
   return (
     <div>
       <Head>
@@ -110,6 +110,6 @@ export default function Careers() {
   );
 }
 
-Careers.getLayout = function getLayout(page) {
+Zones.getLayout = function getLayout(page) {
   return <Layout>{page}</Layout>;
 };

@@ -44,7 +44,7 @@ export default function BlogPost({ slug, post }) {
         <meta property="og:image:alt" content={SeoList.image} />
         <meta property="og:type" content="website" />
 
-        <meta property="fb:app_id" content="555171873348164" />
+        <meta property="fb:app_id" content="" />
 
         {/* Video meta tags */}
         <meta property="og:video" content={SeoList.video} />

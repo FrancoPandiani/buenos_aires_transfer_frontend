@@ -6,16 +6,14 @@ import BlogList from './components/BlogList';
 
 const SeoList = {
   title: 'Buenos Aires Transfer',
-  description:
-    'transportes vip',
+  description:'transportes vip',
   href: '/',
   url: 'https://buenosairestransfer.com',
   keywords: 'transporte, vip, remises, viajes',
   robots: 'all',
   author: 'Franco',
   publisher: 'Pandiani',
-  image:
-    '',
+  image:'',
   twitterHandle: '@Buenosairestrasnfer',
 };
 
@@ -31,6 +29,7 @@ export default function Blog() {
   const [searchBy, setSearchBy] = useState('');
 
   const [loading, setLoading] = useState(false);
+  
   const fetchBlogPosts = useCallback(
     async (page) => {
       setLoading(true);
@@ -87,7 +86,7 @@ export default function Blog() {
         <meta property="og:image:alt" content={SeoList.image} />
         <meta property="og:type" content="website" />
 
-        <meta property="fb:app_id" content="555171873348164" />
+        <meta property="fb:app_id" content="" />
 
         {/* Video meta tags */}
         <meta property="og:video" content={SeoList.video} />
