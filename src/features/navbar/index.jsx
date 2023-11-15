@@ -51,9 +51,9 @@ const company = [
     description: 'Learn more about our company values and mission to empower others',
   },
   {
-    name: 'Carreras',
-    href: '/careers',
-    description: 'Looking for you next career opportunity? See all of our open positions',
+    name: 'Zones',
+    href: '/zones',
+    description: 'Zones we work',
   },
   {
     name: 'Blog',
@@ -156,9 +156,9 @@ export default function Navbar() {
           </Popover>
 
           <Link
-            href="/careers"
+            href="/zones"
             className={`${
-              router.pathname === '/careers'
+              router.pathname === '/zones'
                 ? 'text-cyan-600 dark:text-dark-primary'
                 : 'dark:hover:text-dark-primary hover:text-cyan-600 text-gray-900 dark:text-dark-txt'
             } text-md font-medium leading-6    `}

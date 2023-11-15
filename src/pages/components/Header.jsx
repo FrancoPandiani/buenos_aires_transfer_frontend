@@ -14,7 +14,7 @@ const navigation = {
     { name: 'Casos', href: '/casos' },
     { name: 'Servicios', href: '/servicios' },
     { name: 'Nosotros', href: '/nosotros' },
-    { name: 'Carreras', href: '/carreras' },
+    { name: 'Zones', href: '/zones' },
     { name: 'Blog', href: '/blog' },
   ],
   legal: [
