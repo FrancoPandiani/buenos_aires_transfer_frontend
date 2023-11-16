@@ -6,7 +6,7 @@ const steps = [
     name: 'Te recogemos en cualquier punto de AMBA.',
     description:
       'Te avisamos 10 minutos antes de llegar al punto de encuentro.',
-    href: '/zonas_de_cobertura',
+    href: '/zones',
     status: 'current',
   },
   {

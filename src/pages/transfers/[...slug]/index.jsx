@@ -6,7 +6,7 @@ import DOMPurify from 'isomorphic-dompurify';
 import moment from 'moment';
 import Layout from '@/hocs/Layout';
 
-export default function BlogPost({ slug, post }) {
+export default function TransferPost({ slug, post }) {
   const SeoList = {
   title: 'Buenos Aires Transfer',
   description:'transportes vip',
@@ -113,7 +113,7 @@ export default function BlogPost({ slug, post }) {
   );
 }
 
-BlogPost.getLayout = function getLayout(page) {
+TransferPost.getLayout = function getLayout(page) {
   return <Layout>{page}</Layout>;
 };
 

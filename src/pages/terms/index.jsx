@@ -46,8 +46,20 @@ export default function Terms() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div>Terms page</div>
-      <div className="pb-32" />
+      <div className="text-center">
+      <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
+      <p className="dark:text-dark-txt mt-1 text-3xl font-extrabold text-gray-900 sm:text-4xl sm:tracking-tight lg:text-5xl font-worksans-bold">
+            Terminos y Condiciones</p>
+      <div className="pb-10" />
+      Los Servicios Digitales pueden contener enlaces hacia sitios, productos y/o servicios de terceros, no obstante,
+      el Administrador no administra ni controla esos sitios, productos y/o servicios y no es responsable de sus contenidos
+      ni de cualquier daño y perjuicio que tales contenidos, productos y servicios pudieran causar, por lo que se recomienda
+      la lectura de los Términos y Condiciones de cada uno de ellos.
+      Asimismo, los Servicios Digitales utilizan información provista directamente por los Usuarios, información suministrada por terceros
+      e información cedida al Administrador por otros Organismos en los términos de lo dispuesto por la Ley de Protección de Datos Personales
+      Ley 25.326,modificatorias y complementarias. En este último caso, El Administrador no es responsable por los daños y/o perjuicios que pudieran generarse por errores en la información cedida por dichos Organismos.
+    </div>
+    </div>
     </div>
   );
 }

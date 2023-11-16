@@ -10,15 +10,13 @@ const navigation = {
     },
   ],
   support: [
-    { name: 'Blog', href: '/blog' },
-    { name: 'Videos', href: '/videos' },
+    { name: 'Transfers', href: '/transfers' },
     { name: 'Redes Sociales', href: '/contact' },
   ],
   company: [
     { name: 'Quienes somos', href: '/about' },
   ],
   legal: [
-    { name: 'Derechos de Autor', href: '#' },
     { name: 'Privacidad', href: '/privacy' },
     { name: 'Terminos y Condiciones', href: '/terms' },
   ],

@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Layout from '@/hocs/Layout';
 import { useCallback, useEffect, useState } from 'react';
 import FetchBlogPosts from '@/utils/api/blog/List';
-import BlogList from './components/BlogList';
+import BlogList from './components/TransferBlogList';
 
 const SeoList = {
   title: 'Buenos Aires Transfer',

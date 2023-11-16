@@ -30,7 +30,7 @@ function BlogCardHorizontal({ data, index }) {
   return (
     <li>
       <Link
-        href={`/blog/${slug}`}
+        href={`/transfers/${slug}`}
         onMouseEnter={() => {
           // const img = document.getElementById(index)
           // img.classList.add('object-fill')

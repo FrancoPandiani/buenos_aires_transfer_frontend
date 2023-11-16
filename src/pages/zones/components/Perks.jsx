@@ -13,7 +13,7 @@ const perks = [
   {
     name: 'Refrigerio en todos los viajes',
     description:
-      'Trabaamos con primeras marcas como Coca cola, Sprite, Milka y Havanna',
+      'Trabajamos con primeras marcas como Coca cola, Sprite, Milka y Havanna',
   },
   {
     name: 'Translado de equipaje',

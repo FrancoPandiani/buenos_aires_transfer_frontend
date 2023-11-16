@@ -21,7 +21,7 @@ const features = [
   {
     name: 'Servicio 24 hrs.',
     description:
-      'Contactanos de nuevo en cualquier momento que necesites, tenemos atencion las 24/7.',
+      'Contactanos nuevamente en cualquier momento que necesites, tenemos atencion las 24/7.',
     icon: ArrowPathIcon,
   },
   {
