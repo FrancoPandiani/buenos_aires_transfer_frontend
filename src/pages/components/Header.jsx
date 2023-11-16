@@ -15,7 +15,7 @@ const navigation = {
     { name: 'Servicios', href: '/servicios' },
     { name: 'Nosotros', href: '/nosotros' },
     { name: 'Zones', href: '/zones' },
-    { name: 'Blog', href: '/blog' },
+    { name: 'Transfer', href: '/transfers' },
   ],
   legal: [
     { name: 'Claim', href: '#' },
@@ -107,16 +107,16 @@ function Header() {
               </h1>
               <div className=" max-w-4xl leading-8 space-x-4">
                 <span className=" text-md font-medium leading-8 dark:text-dark-txt-secondary text-black sm:text-center transition duration-300 ease-in-out border-b-2 border-transparent hover:border-orange-500">
-                  <Link href="/services/blockchain_development">Nuestros Servicios</Link>
+                  <Link href="/nuestros_servicios">Nuestros Servicios</Link>
                 </span>
                 <span className=" text-md font-medium leading-8 dark:text-dark-txt-secondary text-black sm:text-center transition duration-300 ease-in-out border-b-2 border-transparent hover:border-orange-500">
-                  <Link href="/services/backend_development">Autos</Link>
+                  <Link href="/transfers">Autos</Link>
                 </span>
                 <span className=" text-md font-medium leading-8 dark:text-dark-txt-secondary text-black sm:text-center transition duration-300 ease-in-out border-b-2 border-transparent hover:border-orange-500">
-                  <Link href="/services/web_development">Camionetas</Link>
+                  <Link href="/transfers">Camionetas</Link>
                 </span>
                 <span className=" text-md font-medium leading-8 dark:text-dark-txt-secondary text-black sm:text-center transition duration-300 ease-in-out border-b-2 border-transparent hover:border-orange-500">
-                  <Link href="/services/software_development">Combis</Link>
+                  <Link href="/transfers">Combis</Link>
                 </span>
                 <div className="hidden absolute bottom-4 left-4 lg:flex space-x-6 xl:mx-12 mx-0">
                   {navigation.social.map((item) => (

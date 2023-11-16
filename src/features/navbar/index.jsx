@@ -20,45 +20,38 @@ import GlobeButton from '@/components/GlobeButton';
 
 const products = [
   {
-    name: 'Traslados',
-    description:
-      'Traslados en capital federal.',
-    href: '/services/traslado_capital_federal',
-    icon: CursorArrowRaysIcon,
-  },
-  {
     name: 'Traslados corporativos & grupales',
     description: 'Todo tipo de empresas',
-    href: '/services/traslado_empresas',
+    href: '/transfers',
     icon: CursorArrowRaysIcon,
   },
   {
     name: 'Remises ejectutivos',
     description: 'Remises VIP ',
-    href: '/services/remises_vip',
+    href: '/transfers',
     icon: CursorArrowRaysIcon,
   },
 
 ];
 const callsToAction = [
-  { name: 'Ver Blog', href: '/blog', icon: PlayCircleIcon },
+  { name: 'Ver transfers', href: '/transfers', icon: PlayCircleIcon },
   { name: 'Contactanos', href: '/contact', icon: PhoneIcon },
 ];
 const company = [
   {
     name: 'Casos',
     href: '/cases',
-    description: 'Learn more about our company values and mission to empower others',
+    description: 'casos',
   },
   {
     name: 'Zones',
     href: '/zones',
-    description: 'Zones we work',
+    description: 'Zonas que trabajamos',
   },
   {
-    name: 'Blog',
-    href: '/blog',
-    description: 'Read our latest announcements and get perspectives from our team',
+    name: 'transfers',
+    href: '/transfers',
+    description: 'nuestros transportes',
   },
 ];
 
@@ -167,14 +160,14 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/blog"
+            href="/transfers"
             className={`${
-              router.pathname === '/blog'
+              router.pathname === '/transfers'
                 ? 'text-cyan-600 dark:text-dark-primary'
                 : 'dark:hover:text-dark-primary hover:text-cyan-600 text-gray-900 dark:text-dark-txt'
             } text-md font-medium leading-6    `}
           >
-            Blog
+            Transfers
           </Link>
 
           <Link
@@ -200,7 +193,7 @@ export default function Navbar() {
           </Link>
         </Popover.Group>
         <div className="hidden xl:flex xl:flex-1 xl:justify-end space-x-2">
-          <GlobeButton />
+          
           <DarkModeButton />
           <Link
             href="/contact"
