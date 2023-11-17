@@ -3,16 +3,14 @@ import Layout from '@/hocs/Layout';
 
 const SeoList = {
   title: 'Page Not Found - Buenos Aires Transfer',
-  description:
-    'Oops! algo salió mal.. vuelve nuevamente al inicio.',
+  description:'Oops! algo salió mal.. vuelve nuevamente al inicio.',
   href: '/',
   url: 'https://buenosarestransfer.com/404',
   keywords: '404 error, page not found, buenosairestransfer',
   robots: 'noindex, nofollow',
   author: 'Franco',
   publisher: 'Franco',
-  image:
-    '',
+  image:'',
   twitterHandle: '@buenosairestransfer',
 };
 

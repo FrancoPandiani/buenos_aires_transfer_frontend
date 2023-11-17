@@ -6,19 +6,15 @@ import Roadmap from './components/Roadmap';
 
 const SeoList = {
   title: 'Buenos Aires Transfer - Una nueva manera de viajar',
-  description:
-    'choferes profesionales',
+  description:'choferes profesionales',
   href: '/',
   url: 'https://buenosairestransfer.com',
-  keywords:
-    'transfer, viajes, turismo, argentina , auto, camioneta, aeropuerto',
+  keywords:'transfer, viajes, turismo, argentina , auto, camioneta, aeropuerto',
   robots: 'all',
   author: 'Franco',
   publisher: 'Franco',
-  image:
-    '',
+  image:'',
   video: '',
-
   twitterHandle: '@buenosairestransfer',
 };
 
@@ -28,7 +24,6 @@ export default function Home() {
       <Head>
         <title>{SeoList.title}</title>
         <meta name="description" content={SeoList.description} />
-
         <meta name="keywords" content={SeoList.keywords} />
         <link rel="canonical" href={SeoList.href} />
         <meta name="robots" content={SeoList.robots} />

@@ -6,7 +6,7 @@ const initialState = {
 };
 
 export default function cookies(state = initialState, action) {
-  // eslint-disable-next-line
+  
   const { type, payload } = action;
 
   switch (type) {

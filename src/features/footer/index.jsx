@@ -189,7 +189,7 @@ export default function Footer() {
               Recibe noticias y regalos para tus viajes
             </h3>
             <p className="mt-2 text-sm leading-6 dark:text-dark-txt-secondary  text-gray-600">
-             Beneficios únicos, no te los pierdas !
+             Beneficios únicos, ¡no te los pierdas !
             </p>
             <form className="mt-6 sm:flex sm:max-w-md">
               <input

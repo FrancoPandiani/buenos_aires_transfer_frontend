@@ -1,30 +1,14 @@
 import { useRouter } from 'next/router';
-import { Fragment, useState } from 'react';
+import { Fragment, useState} from 'react';
 import { Dialog, Popover, Transition } from '@headlessui/react';
-import {
-  ArrowPathIcon,
-  Bars3Icon,
-  ChartPieIcon,
-  CubeIcon,
-  CursorArrowRaysIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
-  XMarkIcon,
-} from '@heroicons/react/24/outline';
+import {Bars3Icon,CursorArrowRaysIcon,XMarkIcon} from '@heroicons/react/24/outline';
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid';
 import Link from 'next/link';
 import DotLoader from 'react-spinners/DotLoader';
 import LogoImg from '@/components/LogoImg';
 import DarkModeButton from '@/components/DarkModeButton.jsx';
-import GlobeButton from '@/components/GlobeButton';
 
 const products = [
-  {
-    name: 'Traslados corporativos & grupales',
-    description: 'Todo tipo de empresas',
-    href: '/transfers',
-    icon: CursorArrowRaysIcon,
-  },
   {
     name: 'Remises ejectutivos',
     description: 'Remises VIP ',

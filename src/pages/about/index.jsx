@@ -20,7 +20,6 @@ export default function About() {
       <Head>
         <title>{SeoList.title}</title>
         <meta name="description" content={SeoList.description} />
-
         <meta name="keywords" content={SeoList.keywords} />
         <link rel="canonical" href={SeoList.href} />
         <meta name="robots" content={SeoList.robots} />
@@ -58,17 +57,17 @@ export default function About() {
         <meta name="twitter:player:width" content="1280" />
         <meta name="twitter:player:height" content="720" />
         <meta name="twitter:player:stream" content={SeoList.video} />
+        
       </Head>
       <div className="text-center mt-[-3rem]">
       <div className="max-w-7xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
-      <p className="dark:text-dark-txt mt-1 text-3xl font-extrabold text-gray-900 sm:text-4xl sm:tracking-tight lg:text-5xl font-worksans-bold">
-          Nosotros
-      </p>
-      <div className="pb-10" /> La empresa se consolida en el mercado casi con una exclusiva atención a empresas. Incorporamos las primeras unidades con telefonía móvil, limusinas y vans ejecutivas.
-        Adicionamos a los servicios existentes los fletes y nos especializamos en "viajes vip", brindando un servicio integral. Para ello mudamos la parte operativa a Saavedra CABA, al predio de un reconocido Hipermercado, que nos facilita con su ubicación estratégica llegar en menos tiempo
-        a cualquier lugar de zona norte, oeste y CABA.
-        </div>
+      <p className="dark:text-dark-txt mt-1 text-3xl font-extrabold text-gray-900 sm:text-4xl sm:tracking-tight lg:text-5xl font-worksans-bold">Nosotros</p>
+      <div className="pb-10" /> La empresa se consolida en el mercado casi con una exclusiva atención a empresas. Incorporamos las primeras unidades con telefonía móvil,
+       limusinas y vans ejecutivas. Adicionamos a los servicios existentes los fletes y nos especializamos en "viajes vip", brindando un servicio integral. Para ello mudamos
+       la parte operativa a Saavedra CABA, al predio de un reconocido Hipermercado, que nos facilita con su ubicación estratégica llegar en menos tiempo
+      a cualquier lugar de zona norte, oeste y CABA.
       </div>
+    </div>
     </>
   );
 }
