@@ -14,8 +14,6 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
           rel="stylesheet"
         />
-
-        {/* <!-- These 3 links are only for icons --> */}
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"

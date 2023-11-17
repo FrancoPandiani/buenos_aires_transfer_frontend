@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import Image from 'next/image';
 
-const logoList = ['BAT.png'];
+const logoList = ['BAT2.png'];
 
 export default function LogoImg() {
   const [logo, setLogo] = useState(logoList[0]);

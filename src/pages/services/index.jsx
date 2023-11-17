@@ -59,7 +59,7 @@ export default function Services() {
         <meta name="twitter:player:height" content="720" />
         <meta name="twitter:player:stream" content={SeoList.video} />
       </Head>
-      <div className="dark:bg-dark-bg">
+      <div className="dark:bg-dark-bg text-center">
         <p className="mt-6 text-lg leading-8 dark:text-dark-txt-secondary text-gray-600">Ofrecemos todo tipo de servicios para traslados de empresas con el mayor confort.</p>
         <p className="mt-6 text-lg leading-8 dark:text-dark-txt-secondary text-gray-600">Viaja distinto viaja con Buenos Aires Transfer.</p>
       </div>

@@ -1,11 +1,8 @@
 import Layout from '@/hocs/Layout';
 import Head from 'next/head';
-import BoomslagLogoKit from './components/BuenosAiresTransferLogoKit';
-import Colors from './components/Colors';
+import BuenosAiresTransferLogoKit from './components/BuenosAiresTransferLogoKit';
 import Header from './components/Header';
-import PraediumLogoKit from './components/PraediumLogoKit';
 import Products from './components/Products';
-import UridiumLogoKit from './components/UridiumLogoKit';
 
 const SeoList = {
   title: 'Buenos Aires Transfer',
@@ -52,10 +49,7 @@ export default function Press() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <PraediumLogoKit />
-      <UridiumLogoKit />
-      <BoomslagLogoKit />
-      <Colors />
+      <BuenosAiresTransferLogoKit />
       <Products />
     </div>
   );

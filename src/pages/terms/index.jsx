@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import Layout from '@/hocs/Layout';
-import Header from './components/Header';
 
 const SeoList = {
   title: 'Buenos Aires Transfer',

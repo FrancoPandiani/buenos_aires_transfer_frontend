@@ -1,9 +1,7 @@
 import Head from 'next/head';
 import Layout from '@/hocs/Layout';
 import Link from 'next/link';
-import {
-  PhoneIcon
-} from '@heroicons/react/24/outline';
+import { PhoneIcon} from '@heroicons/react/24/outline';
 
 const SeoList = {
   title: 'Buenos Aires Transfer',
